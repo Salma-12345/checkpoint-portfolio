@@ -1,0 +1,47 @@
+
+body{
+    font-family: "Roboto" , sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: antiquewhite;
+    color: black;
+    line-height:1.6;
+}
+h1,h2{
+    text-align:center;
+    margin-top: 30px ;
+    margin-bottom: 15px ;
+    }
+section {
+  margin: 40px auto;
+  padding: 20px;
+  max-width: 800px;
+  background-color: burlywood;
+  border: 3px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+label {
+    display:block ;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-weight: bold;
+
+}
+button{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width:120px;
+  height:40px;
+
+}
+button:hover {
+    background-color: #b6a8a8;
+
+}
+footer{
+  text-align: center;
+  padding: 20px;
+  background-color: #b6a8a8;
+  height: 100px ;
+}
