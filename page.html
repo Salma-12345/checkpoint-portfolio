@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylesheet.css">
     <title>My professional portfolio</title>
 </head>
 <body>
@@ -22,8 +23,8 @@
     <main>
         <!--home section-->
             <section id="Home">
-                <h1>welccome to my portfolio</h1>
-                <p>Hi! my name is Salma El Abed, im a passionate web developer dedicated
+            <h1>Home</h1>
+            <p>Hi! my name is Salma El Abed, im a passionate web developer dedicated
              to creating beautiful and functional websites.</p>
              <audio controls>
                 <source src="welcome.mp3" type="audio">
@@ -79,18 +80,18 @@
         <!--contact section-->
         <section id="contact">
             <h2>Contact me</h2>
-            <form action="submit_form.php"> method="Post"
+            <form action="submit_form.php" method= "POST"> 
                 <div>
                 <label for="name">Name</label>
-                <input type="text" id="name" name="name" required>
+                <input type="text" id="name" required>
                 </div>
                 <div>
-                    <label for="email">Name</label>
-                    <input type="email" id="email" name="email" required>
+                    <label for="email">email</label>
+                    <input type="email" id="email" required>
                 </div>
                 <div>
                     <label for="message">Message</label>
-                    <input type="message" id="message" name="message" required>
+                    <input type="message" id="message"  required>
                 </div>
                 <button type="submit">send message</button>
             </form>
